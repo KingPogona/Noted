@@ -1,1 +1,11 @@
-[{"title":"Test Title","text":"Test text", "id": 0}]
+{   
+    "nextID": 1,
+
+    "notes": [
+        {
+            "title":"Test Title",
+            "text":"Test text", 
+            "id": 0
+        }
+    ]
+}

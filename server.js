@@ -1,4 +1,4 @@
-// const apiRoutes = require('./routes/apiRoutes');
+const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
 
 const express = require('express');
@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 // parse incoming JSON data
 app.use(express.json());
 
-// app.use('/api', apiRoutes);
+app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
 

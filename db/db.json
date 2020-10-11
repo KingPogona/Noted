@@ -1,11 +1,6 @@
-{   
-    "nextID": 1,
+{
+  "nextID": 1,
+  "notes": [
 
-    "notes": [
-        {
-            "title":"Test Title",
-            "text":"Test text", 
-            "id": 0
-        }
-    ]
+  ]
 }
